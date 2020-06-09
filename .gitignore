@@ -1,4 +1,2 @@
 .vscode
-SONICBATTLE.gba
-oldOffsets.json
-dump.json
+ignore/*
