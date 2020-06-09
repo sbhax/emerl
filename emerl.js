@@ -4,6 +4,11 @@ var config = {}
 var patch = false
 var file = {}
 
+function clone(object){
+    // this is gross
+    return JSON.parse(JSON.stringify(object))
+}
+
 function endSwitch(string, options){
     for (let i = 0; i < options.length; i++) {
         if (string.endsWith(options[i])) {
@@ -15,6 +20,8 @@ function endSwitch(string, options){
 function getJSValue(file, value, types){
     switch (value.type){
         case "uint8":
+            //console.log(value.offset)
+            //console.log(file[parseInt(value.offset, 16)])
             return file[parseInt(value.offset, 16)]
 
         case "bool":
@@ -28,12 +35,21 @@ function getJSValue(file, value, types){
                 return false
             }
 
+        case "boolLoose":
+            if (file[parseInt(value.offset, 16)] == parseInt(value.boolReturns[1], 16)){
+                // If same as true state
+                return true
+            } else {
+                return false
+            }
+
         default:
             let toReturn = {}
             for (const key in types[value.type]){
-                let currentValue = types[value.type][key]
-                currentValue.offset = parseInt(value.offset, 16) + parseInt(currentValue.offset, 16)
+                let currentValue = clone(types[value.type][key])
+                currentValue.offset = parseInt(value.offset, 16) + currentValue.offset
                 currentValue.offset = currentValue.offset.toString(16)
+                //console.log(currentValue.offset)
                 toReturn[key] = getJSValue(file, currentValue, config.types)
             }
             return toReturn
@@ -73,6 +89,6 @@ if (!patch){
         console.log(key + " - " + dump[key])
     }
     const encoder = new TextEncoder()
-    const data = encoder.encode(JSON.stringify(dump))
+    const data = encoder.encode(JSON.stringify(dump, null, "    "))
     await Deno.writeFile("dump.json", data)
 }
