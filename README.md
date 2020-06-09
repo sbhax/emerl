@@ -51,3 +51,6 @@ Emerl is designed to provide basic and efficient command line tools for dumping 
 
 - **Tile Dump** - Dump arranged tiles.
 
+## Resources
+
+https://github.com/phase/sbhs/issues/7
