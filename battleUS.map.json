@@ -1,26 +1,23 @@
 {
     "types":{
-        "move":[
-            {
-                "name":"damage",
+        "move":{
+            "damage":{
                 "type":"uint8",
-                "offset":"00"
+                "offset":0
             },
-            {
-                "name":"attack_type",
+            "attack_type":{
                 "type":"uint8",
-                "offset":"04"
+                "offset":4
             },
-            {
-                "name":"inherit_attack_type",
-                "type":"bool",
-                "offset":"06",
+            "inherit_attack_type":{
+                "type":"boolLoose",
+                "offset":6,
                 "boolReturns":[
                     "25",
                     "00"
                 ]
             }
-        ]
+        }
     },
     "values":{
         "sonic.stat.acceleration":{
@@ -38,6 +35,22 @@
         "sonic.move.combo1":{
             "type":"move",
             "offset":"00053370"
+        },
+        "sonic.move.combo2":{
+            "type":"move",
+            "offset":"000533E0"
+        },
+        "sonic.move.combo3":{
+            "type":"move",
+            "offset":"00053460"
+        },
+        "sonic.move.heavy":{
+            "type":"move",
+            "offset":"000534E0"
+        },
+        "sonic.move.upper":{
+            "type":"move",
+            "offset":"000535D0"
         }
     }
 }
