@@ -34,7 +34,7 @@ function getJSValue(file, value, types){
                 let currentValue = types[value.type][key]
                 currentValue.offset = parseInt(value.offset, 16) + parseInt(currentValue.offset, 16)
                 currentValue.offset = currentValue.offset.toString(16)
-                toReturn[key] = getValue(file, currentValue, config.types)
+                toReturn[key] = getJSValue(file, currentValue, config.types)
             }
             return toReturn
 
