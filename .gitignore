@@ -1,2 +1,4 @@
 .vscode
 ignore/*
+rom.gba
+extract/*
