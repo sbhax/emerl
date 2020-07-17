@@ -1,0 +1,206 @@
+[
+    {
+        "out":"char/sonic/sheet.png",
+        "mode":{
+            "type":"sheet",
+             "offset":"0x47AFD8",
+            "palette":"0x47AFB8",
+            "frames":[8, 4, 8, 4, 8, 4, 4, 4, 8, 4, 8, 8, 8, 8, 16, 12, 12, 8, 12, 8, 8, 16, 8, 12,
+                      8, 8, 4, 8, 4, 4, 8, 8, 4, 8, 4, 8, 4, 4]
+        }
+    },
+    {
+        "out":"char/sonic/palette_over.png",
+        "mode":{
+            "type":"palette",
+            "offset":"0x47AFB8"
+        }
+    },
+    {
+        "out":"char/knuckles/sheet.png",
+        "mode":{
+            "type":"sheet",
+             "offset":"0x4CADF8",
+            "palette":"0x4CADD8",
+            "frames":[8, 4, 8, 4, 8, 4, 4, 4, 8, 4, 8, 8, 8, 12, 16, 12, 12, 8, 12, 8, 8, 8, 8, 8,
+                      12, 8, 8, 4, 8, 8, 12, 8, 4, 8, 4, 4, 8, 8, 4, 8, 4, 4, 8, 4, 4]
+        }
+    },
+    {
+        "out":"char/knuckles/palette_over.png",
+        "mode":{
+            "type":"palette",
+            "offset":"0x4CADD8"
+        }
+    },
+    {
+        "out":"char/tails/sheet.png",
+        "mode":{
+            "type":"sheet",
+             "offset":"0x528418",
+            "palette":"0x5283F8",
+            "frames":[8, 4, 8, 4, 8, 4, 4, 4, 8, 4, 8, 8, 8, 8, 28, 12, 12, 8, 8, 8, 8, 20, 8, 20,
+                      16, 8, 8, 4, 8, 8, 8, 8, 4, 8, 8, 4, 8, 8, 8, 8, 8, 4, 4]
+        }
+    },
+    {
+        "out":"char/tails/palette_over.png",
+        "mode":{
+            "type":"palette",
+            "offset":"0x5283F8"
+        }
+    },
+    {
+        "out":"char/shadow/sheet.png",
+        "mode":{
+            "type":"sheet",
+             "offset":"0x58D838",
+            "palette":"0x58D818",
+            "frames":[8, 4, 28, 12, 8, 4, 4, 8, 8, 8, 4, 8, 8, 8, 12, 24, 16, 20, 8, 4, 8, 12, 12,
+                      8, 24, 8, 12, 8, 4, 8, 4, 4, 8, 8, 12, 4, 4, 4, 4, 4]
+        }
+    },
+    {
+        "out":"char/shadow/palette_over.png",
+        "mode":{
+            "type":"palette",
+            "offset":"0x58D818"
+        }
+    },
+    {
+        "out":"char/rouge/sheet.png",
+        "mode":{
+            "type":"sheet",
+             "offset":"0x5F3E58",
+            "palette":"0x5F3E38",
+            "frames":[8, 4, 8, 4, 8, 4, 8, 4, 8, 4, 8, 12, 16, 12, 8, 8, 12, 8, 4, 12, 8, 4, 8, 4,
+                      4, 8, 8, 12, 4, 4, 4, 4, 4]
+        }
+    },
+    {
+        "out":"char/rouge/palette_over.png",
+        "mode":{
+            "type":"palette",
+            "offset":"0x5F3E38"
+        }
+    },
+    {
+        "out":"char/amy/sheet.png",
+        "mode":{
+            "type":"sheet",
+             "offset":"0x636478",
+            "palette":"0x636458",
+            "frames":[8, 4, 8, 4, 8, 4, 4, 4, 4, 4, 4, 4, 8, 8, 8, 16, 16, 8, 8, 12, 12, 8, 8, 8,
+                      12, 8, 4, 8, 8, 8, 8, 8, 4, 4, 8, 4, 4]
+        }
+    },
+    {
+        "out":"char/amy/palette_over.png",
+        "mode":{
+            "type":"palette",
+            "offset":"0x636458"
+        }
+    },
+    {
+        "out":"char/e102/sheet.png",
+        "mode":{
+            "type":"sheet",
+             "offset":"0x681A98",
+            "palette":"0x681A78",
+            "frames":[8, 4, 8, 4, 4, 4, 4, 4, 4, 8, 4, 8, 8, 8, 12, 16, 12, 12, 8, 12, 8, 8, 16,
+                      12, 12, 16, 12, 12, 28, 4, 4, 20, 40, 4, 8, 4, 4, 4, 4, 8, 4, 4, 8, 4, 8, 4, 4]
+        }
+    },
+    {
+        "out":"char/e102/palette_over.png",
+        "mode":{
+            "type":"palette",
+            "offset":"0x681A78"
+        }
+    },
+    {
+        "out":"char/cream/sheet.png",
+        "mode":{
+            "type":"sheet",
+             "offset":"0x6F6AB8",
+            "palette":"0x6F6A98",
+            "frames":[8, 4, 20, 4, 4, 8, 8, 12, 8, 8, 8, 16, 8, 12, 8, 16, 12, 4, 16, 12, 4, 8, 4,
+                      4]
+        }
+    },
+    {
+        "out":"char/cream/palette_over.png",
+        "mode":{
+            "type":"palette",
+            "offset":"0x6F6A98"
+        }
+    },
+    {
+        "out":"char/chaos/sheet.png",
+        "mode":{
+            "type":"sheet",
+             "offset":"0x7336D8",
+            "palette":"0x7336B8",
+            "frames":[8, 4, 8, 8, 12, 4, 8, 8, 4, 8, 8, 12, 16, 16, 8, 8, 8, 8, 20, 8, 8, 12, 8, 4,
+                      8, 8, 8, 8, 8, 4, 4, 8, 4, 4]
+        }
+    },
+    {
+        "out":"char/chaos/palette_over.png",
+        "mode":{
+            "type":"palette",
+            "offset":"0x7336B8"
+        }
+    },
+    {
+        "out":"char/eggman/sheet.png",
+        "mode":{
+            "type":"sheet",
+             "offset":"0x7822F8",
+            "palette":"0x7822D8",
+            "frames":[4, 4, 4, 4, 4]
+        }
+    },
+    {
+        "out":"char/eggman/palette_over.png",
+        "mode":{
+            "type":"palette",
+            "offset":"0x7822D8"
+        }
+    },
+    {
+        "out":"char/sonic/effect/mine_palette_over.png",
+        "mode":{
+            "type":"palette",
+            "offset":"0xBF20D8"
+        }
+    },
+    {
+        "out":"char/tails/effect/blaster_palette_over.png",
+        "mode":{
+            "type":"palette",
+            "offset":"0xBF2098"
+        }
+    },
+    {
+        "out":"char/emerl/palette_phi.png",
+        "mode":{
+            "type":"palette",
+            "offset":"0x47AB78"
+        }
+    },
+    {
+        "out":"char/all/effect/dust_palette_over.png",
+        "mode":{
+            "type":"palette",
+            "offset":"0xBF2058"
+        }
+    },
+    {
+        "out":"char/all/effect/shield_palette_over.png",
+        "mode":{
+            "type":"palette",
+            "offset":"0xBF2078"
+        }
+    }
+]
